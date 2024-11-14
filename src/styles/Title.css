@@ -1,0 +1,19 @@
+.titles {
+    text-align: center;
+    color: #212ea0;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 4rem auto;
+  }
+  .titles p{
+    font-size: 1rem;
+  }
+  .titles h2 {
+    font-size: 2rem;
+    margin-top: 0.8rem;
+    font-weight: 700;
+    text-transform: none;
+    color: black;
+  }
+  

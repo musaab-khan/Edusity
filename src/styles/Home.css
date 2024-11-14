@@ -1,0 +1,29 @@
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background: linear-gradient(#08003ab3,#08003ab3),url('../assets/hero-background.png');
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+.hero-text{
+    max-width: 800px;
+}
+.hero-text h1{
+    font-size: 3.75rem;
+}
+.hero-text p{
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+
+@media (max-width: 850px){
+    .hero-text h1{
+        font-size: 8vw;
+    }
+}
