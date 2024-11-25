@@ -1,12 +1,12 @@
 import React from 'react'
-import video from '../assets/college-video.mp4'
+import {video} from '../assets/assets'
 import '../styles/Video.css'
 
 export default function Video({ isVisible, onClose }) {
-    if (!isVisible) return null;
+  if (!isVisible) return null;
   return (
     <div className="video-overlay" onClick={onClose}>
-        <video src={video} autoPlay muted controls></video>
+      <video src={video} autoPlay muted controls></video>
     </div>
   )
 }

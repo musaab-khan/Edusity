@@ -1,15 +1,10 @@
 import React, { useState } from 'react';
 import '../styles/Testimonials.css';
-import nextArrow from '../assets/next-arrow.png';
-import backArrow from '../assets/back-arrow.png';
-import student1 from '../assets/student-1.png';
-import student2 from '../assets/student-2.png';
-import student3 from '../assets/student-3.png';
-import student4 from '../assets/student-4.png';
+import {backArrow,nextArrow,student1,student2,student3,student4} from '../assets/assets';
 import Title from './Title';
 
 export default function Testimonials() {
-    const [translateX, setTranslateX] = useState(0); // Track current translateX value
+    const [translateX, setTranslateX] = useState(0);
 
     function slide(direction) {
         let newTranslateX = translateX;

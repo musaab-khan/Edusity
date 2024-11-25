@@ -1,6 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import logo from '../assets/edusity-logo.png';
-import hamburger from '../assets/navbar-hamburger.png';
+import {edusityLogo,navbarHamburger} from '../assets/assets';
 import '../styles/Navbar.css';
 
 export default function Navbar() {
@@ -29,7 +28,7 @@ export default function Navbar() {
 
   return (
     <nav ref={navRef} className="container">
-      <img src={logo} alt="edusity logo" className="logo" />
+      <img src={edusityLogo} alt="edusity logo" className="logo" />
       <ul className={`menu-display ${menuOpen ? 'show' : ''}`} id="yo">
         <li>Home</li>
         <li>Program</li>
@@ -38,7 +37,7 @@ export default function Navbar() {
         <li>Testimonials</li>
         <li><a href="#home" className="btn">Contact Us</a></li>
       </ul>
-      <img src={hamburger} alt="menu hamburger" className="hamburger" onClick={toggleDisplay} />
+      <img src={navbarHamburger} alt="menu hamburger" className="hamburger" onClick={toggleDisplay} />
     </nav>
   );
 }
