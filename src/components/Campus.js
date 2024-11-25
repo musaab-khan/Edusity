@@ -7,7 +7,7 @@ export default function Campus() {
   return (
     <div className='container campus'>
         <Title title="Gallery" subtitle="Campus Photos" />
-        <div className="gallery">
+        <div className="gallery flex justify-between">
             <img src={gallery1} alt="" />
             <img src={gallery2} alt="" />
             <img src={gallery3} alt="" />

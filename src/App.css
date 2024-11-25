@@ -23,6 +23,30 @@
   text-decoration: none;
   font-family: 'Outfit';
 }
+
+.flex{
+  display: flex;
+}
+.center-center{
+  align-items: center;
+  justify-content: center;
+}
+.justify-center{
+  justify-content: center;
+}
+.align-center{
+  align-items: center;
+}
+.justify-between{
+  justify-content: space-between;
+}
+.text-left{
+  text-align: left;
+}
+.text-center{
+  text-align: center;
+}
+
 @media (max-width: 850px){
   .container{
     padding-left: 5%;

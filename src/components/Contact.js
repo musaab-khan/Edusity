@@ -26,9 +26,9 @@ export default function Contact() {
   return (
     <div className="container">
       <Title title="Contact Us" subtitle="Get in Touch" />
-      <div className="contact">
+      <div className="contact flex text-left justify-between">
         <div className="column">
-          <h3>
+          <h3 className="flex align-center">
             Send us a message <img src={message} alt="" />
           </h3>
           <p>
@@ -38,7 +38,7 @@ export default function Contact() {
             university community.
           </p>
           <div className="contact-info">
-            <div>
+            <div className="flex align-center">
               <img src={email} alt="" />
               <span>Contact@GreatStack.dev</span>
             </div>
