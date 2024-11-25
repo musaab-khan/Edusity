@@ -1,10 +1,5 @@
 import React from 'react'
-import program1 from '../assets/program1.png'
-import program2 from '../assets/program2.png'
-import program3 from '../assets/program3.png'
-import program1Caption from '../assets/prgram1-caption.png'
-import program2Caption from '../assets/prgram2-caption.png'
-import program3Caption from '../assets/prgram3-caption.png'
+import {program1,program2,program3,program1Caption,program2Caption,program3Caption} from '../assets/assets'
 import '../styles/Programs.css'
 import Title from './Title'
 

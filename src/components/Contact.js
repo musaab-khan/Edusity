@@ -1,9 +1,6 @@
 import React, { useState } from "react";
 import "../styles/Contact.css";
-import message from "../assets/message.png";
-import email from "../assets/email.png";
-import phone from "../assets/phone.png";
-import location from "../assets/location.png";
+import {message,email,phone,location} from "../assets/assets";
 import Title from "./Title";
 
 export default function Contact() {

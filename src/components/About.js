@@ -1,6 +1,5 @@
 import React from 'react'
-import about from '../assets/about.png'
-import play from '../assets/play-button.png'
+import {about, playButton} from '../assets/assets'
 import '../styles/About.css'
 import Title from './Title'
 
@@ -9,7 +8,7 @@ export default function About({ onPlayClick }) {
     <div className='container about'>
         <div className="about-left">
                 <img src={about} alt="" className='about-picture'/>
-                <img src={play} alt="" className='play-button' onClick={onPlayClick }/>
+                <img src={playButton} alt="" className='play-button' onClick={onPlayClick}/>
         </div>
         <div className="about-right">
         <Title title="ABOUT UNIVERSITY" subtitle="Nurturing Tomorrow's Leaders Today" />
