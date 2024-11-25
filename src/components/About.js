@@ -5,7 +5,7 @@ import Title from './Title'
 
 export default function About({ onPlayClick }) {
   return (
-    <div className='container about'>
+    <div className='container about flex align-center'>
         <div className="about-left">
                 <img src={about} alt="" className='about-picture'/>
                 <img src={playButton} alt="" className='play-button' onClick={onPlayClick}/>

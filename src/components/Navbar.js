@@ -27,9 +27,9 @@ export default function Navbar() {
   }, []);
 
   return (
-    <nav ref={navRef} className="container">
+    <nav ref={navRef} className="container flex align-center justify-between">
       <img src={edusityLogo} alt="edusity logo" className="logo" />
-      <ul className={`menu-display ${menuOpen ? 'show' : ''}`} id="yo">
+      <ul className={`menu-display ${menuOpen ? 'show' : ''} flex align-center`} id="yo">
         <li>Home</li>
         <li>Program</li>
         <li>About Us</li>

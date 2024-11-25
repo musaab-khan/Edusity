@@ -22,7 +22,7 @@ export default function Testimonials() {
     return (
         <div className="container testimonials">
             <Title title="Testimonials" subtitle="What Students Say" />
-            <div className="testimonies">
+            <div className="flex center-center">
                 <img
                     src={backArrow}
                     alt=""
@@ -30,9 +30,9 @@ export default function Testimonials() {
                     onClick={() => slide('back')}
                 />
                 <div className="testimony">
-                    <div className="slider" id="slider" style={{ transform: `translateX(${translateX}%)` }}>
-                        <div className="students">
-                            <div className="student-info">
+                    <div className="slider flex justify-between" id="slider" style={{ transform: `translateX(${translateX}%)` }}>
+                        <div className="students flex justify-between text-left">
+                            <div className="student-info flex align-center">
                                 <img src={student1} alt="" />
                                 <div>
                                     <h3>Emily Willians</h3>
@@ -41,8 +41,8 @@ export default function Testimonials() {
                             </div>
                             <p>Choosing to pursue my degree at Edusity was one of the best decisions I've ever made. The supportive community, state-of-the-art facilities, and commitment to academic excellence have truly exceeded my expectations.</p>
                         </div>
-                        <div className="students">
-                            <div className="student-info">
+                        <div className="students flex justify-between text-left">
+                            <div className="student-info flex align-center">
                                 <img src={student2} alt="" />
                                 <div>
                                     <h3>Emily Willians</h3>
@@ -51,8 +51,8 @@ export default function Testimonials() {
                             </div>
                             <p>Choosing to pursue my degree at Edusity was one of the best decisions I've ever made. The supportive community, state-of-the-art facilities, and commitment to academic excellence have truly exceeded my expectations.</p>
                         </div>
-                        <div className="students">
-                            <div className="student-info">
+                        <div className="students flex justify-between text-left">
+                            <div className="student-info flex align-center">
                                 <img src={student3} alt="" />
                                 <div>
                                     <h3>Emily Willians</h3>
@@ -61,8 +61,8 @@ export default function Testimonials() {
                             </div>
                             <p>Choosing to pursue my degree at Edusity was one of the best decisions I've ever made. The supportive community, state-of-the-art facilities, and commitment to academic excellence have truly exceeded my expectations.</p>
                         </div>
-                        <div className="students">
-                            <div className="student-info">
+                        <div className="students flex justify-between text-left">
+                            <div className="student-info flex align-center">
                                 <img src={student4} alt="" />
                                 <div>
                                     <h3>Emily Willians</h3>

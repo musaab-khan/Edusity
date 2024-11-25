@@ -1,9 +1,6 @@
 .contact{
-    display: flex;
     min-width: 90%;
-    text-align: left;
     align-items: flex-start;
-    justify-content: space-between;
 }
 .column{
     flex-basis: 48%;
@@ -16,8 +13,6 @@
     color: #000f38;
     font-weight: 500;
     font-size: 25px;
-    display: flex;
-    align-items: center;
     margin-bottom: 20px;
 }
 .column h3 img{
@@ -26,8 +21,6 @@
     margin-left: 15px;
 }
 .contact-info div{
-    display: flex;
-    align-items: center;
     margin: 20px 0;
 }
 .contact-info img{

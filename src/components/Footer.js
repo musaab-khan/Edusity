@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className="container">
         <hr />
-        <div className="text">
+        <div className="text flex justify-between align-center">
             <p>© 2024 Edusity. All rights reserved.</p>
             <ul>
                 <li>Terms of Servies</li>

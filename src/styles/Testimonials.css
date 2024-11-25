@@ -19,12 +19,7 @@
     display: inline;
   }
 
-.testimonies{
-    display: flex;
-    align-items: center;
-    justify-content: center;
 
-}
 .arrows{
     background-color: #212ea0;
     border-radius: 50%;
@@ -38,10 +33,8 @@
     width: 80%;
 }
 .testimony .slider{
-    display: flex;
     flex-direction: row;
     width: 200%;
-    justify-content: space-between;
     transform: translateX(0%);
     transition: transform 0.5s ease;
     gap: 30px;
@@ -52,17 +45,12 @@
 .students {
     width: 50%;
     position: relative;
-    display: flex;
     flex-direction: column;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
     align-items: flex-start;
-    justify-content: space-between;
     padding: 2%;
-    text-align: left;
 }
 .student-info{
-    display: flex;
-    align-items: center;
     margin-bottom: 20px;
 }
 .student-info img{
