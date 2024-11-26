@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+# Edusity
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is built with React and includes various sections like Home, About, Programs, Campus Gallery, Testimonials, and Contact Us. It also features a video modal, responsive design, and smooth animations for a user-friendly experience.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Home Page**: Hero section introducing the platform with a call-to-action button to explore more.
+- **About Us**: Section explaining the mission and vision of the university.
+- **Programs**: Display of available programs offered by the university with images and captions.
+- **Campus Gallery**: A gallery of campus photos.
+- **Testimonials**: A carousel showing testimonials from students.
+- **Contact Us**: A contact form with interactive feedback.
+- **Video Modal**: A video overlay modal that can be triggered by clicking a play button.
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To get started with the project, follow the instructions below.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Prerequisites
 
-### `npm test`
+You need to have the following installed on your machine:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Node.js**
+- **npm** or **yarn**
 
-### `npm run build`
+### Step 1: Clone the repository
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Clone the repository to your local machine.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+git clone https://github.com/musaab-khan/edusity.git
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Step 2: Install dependencies
 
-### `npm run eject`
+Navigate to the project directory and install the required dependencies using npm or yarn.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+cd edusity
+npm install
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Or if you're using yarn:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+yarn install
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Step 3: Start the development server
 
-## Learn More
+After the dependencies are installed, start the development server.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+npm start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Or with yarn:
 
-### Code Splitting
+```
+yarn start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Your app should now be running at [http://localhost:3000](http://localhost:3000).
 
-### Analyzing the Bundle Size
+## Folder Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Here is the general folder structure of the project:
 
-### Making a Progressive Web App
+```
+/public
+  /index.html  # The main HTML template
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+/src
+  /assets       # Folder for images and static assets
+  /components   # All reusable components (About, Programs, Contact, etc.)
+  /styles       # CSS files for styling
+  /App.js       # Main App component
+  /index.js     # Entry point for the React application
+  /const.js      # Constants for static data (e.g., gallery, programs)
+```
 
-### Advanced Configuration
+## Technologies Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **React**: Frontend framework for building the user interface.
+- **React State and Effects**: For managing component state and side effects.
+- **React Hooks**: For managing component logic using `useState`, `useEffect`, and other hooks.
